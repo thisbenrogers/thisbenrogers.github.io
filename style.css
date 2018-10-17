@@ -1,0 +1,49 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+section {
+  min-height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 8%;
+}
+
+div.bio {
+  min-height: 15em;
+}
+
+nav {
+  position: fixed;
+}
+
+nav li {
+  list-style: none;
+}
