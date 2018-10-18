@@ -59,3 +59,11 @@ nav {
 nav li {
   list-style: none;
 }
+
+.projects {
+  display: flex;
+}
+
+.project {
+  width: 33.33333%;
+}
