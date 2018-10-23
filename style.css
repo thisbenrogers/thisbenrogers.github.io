@@ -1,10 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Playfair+Display");
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 133, 242, 1) 0%,
+    rgba(0, 234, 247, 1) 50%,
+    rgba(119, 202, 206, 1) 100%
+  );
 }
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
 }
 
 h1 {
@@ -24,8 +46,18 @@ h4 {
   font-size: 2em;
 }
 
+p {
+  max-width: 700px;
+}
+
 a {
   background-color: transparent;
+  text-decoration-color: white;
+  color: black;
+}
+
+a:visited {
+  color: white;
 }
 
 b,
@@ -66,4 +98,8 @@ nav li {
 
 .project {
   width: 33.33333%;
+}
+
+.menu > ul > li {
+  margin: 15%;
 }
