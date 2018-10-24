@@ -94,6 +94,10 @@ section {
   padding-top: 10vh;
 }
 
+section.contact {
+  min-height: 65vh;
+}
+
 div.bio {
   min-height: 15em;
 }
@@ -128,15 +132,23 @@ nav li {
   padding: 0.25em;
 }
 
-footer > p {
+footer > div > h3 {
   margin: 0;
+  text-align: center;
 }
 
 .social {
   width: 100%;
 }
 
-/* BEGIN HAMBURGER DEMO */
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons > a {
+  margin: 2em;
+}
 
 .menu-toggle {
   display: inline-block;
@@ -166,7 +178,6 @@ footer > p {
   list-style: none;
   margin: 0;
   padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
   -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
@@ -216,10 +227,6 @@ footer > p {
   z-index: 1000;
 }
 
-/*
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop {
   position: absolute;
@@ -290,5 +297,3 @@ footer > p {
     flex-direction: row;
   }
 }
-
-/* END HAMBURGER DEMO */
