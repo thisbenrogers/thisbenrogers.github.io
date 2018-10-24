@@ -124,7 +124,7 @@ nav li {
 }
 
 .project {
-  width: 33.33333%;
+  width: 100%;
 }
 
 .main-menu > ul > li {
@@ -295,5 +295,9 @@ footer > div > h3 {
   .projects {
     display: flex;
     flex-direction: row;
+  }
+
+  .project {
+    width: 33.3333%;
   }
 }
