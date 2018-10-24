@@ -43,16 +43,16 @@ h3 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 3em;
   margin: 0.67em 0;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h4 {
@@ -90,7 +90,7 @@ img {
 section {
   min-height: 100vh;
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 8%;
   padding-top: 10vh;
 }
 
@@ -106,6 +106,38 @@ nav li {
   list-style: none;
 }
 
+.techstack > ul > * {
+  font-size: 85%;
+}
+
+.greeting > div > h2 {
+  margin: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  width: 33.33333%;
+}
+
+.main-menu > ul > li {
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+
+footer > p {
+  margin: 0;
+}
+
+.social {
+  width: 100%;
+}
+
+/* BEGIN HAMBURGER DEMO */
+
 .menu-toggle {
   display: inline-block;
   padding: 0.75em 15px;
@@ -118,8 +150,6 @@ nav li {
 .menu-toggle:focus {
   color: white;
 }
-
-/* BEGIN HAMBURGER DEMO */
 
 .main-menu {
   position: absolute;
@@ -216,6 +246,27 @@ nav li {
 /* For Larger Screens */
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  section {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .techstack > ul > * {
+    font-size: 100%;
+  }
+
   .menu-toggle,
   .main-menu .menu-close {
     display: none;
@@ -233,34 +284,11 @@ nav li {
   }
 }
 
+@media (min-width: 1024px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* END HAMBURGER DEMO */
-
-.greeting > div > h2 {
-  margin: 0;
-}
-
-.projects {
-  display: flex;
-}
-
-.project {
-  width: 33.33333%;
-}
-
-.main-menu > ul > li {
-  font-size: 1.25em;
-  padding: 0.25em;
-}
-
-footer > p {
-  margin: 0;
-}
-
-.social {
-  display: flex;
-  width: 3vw;
-}
-
-.social > a {
-  margin: 33.3333%;
-}
