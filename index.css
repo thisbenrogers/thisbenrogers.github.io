@@ -1,0 +1,37 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+main {
+  min-height: 100vh;
+  background-color: black;
+  background-image: url('./night-field.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+
+.wrapper {
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content {
+  border-radius: 4%;
+  background-color: rgba(255,160,122, 0.2);
+  padding: 20px;
+}
+
+.github {
+  max-width: 45px;
+}
