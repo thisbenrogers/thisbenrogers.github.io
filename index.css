@@ -16,6 +16,9 @@ main {
   background-position: center center; 
 }
 
+a {
+  color: inherit;
+}
 
 .wrapper {
   text-align: center;
@@ -32,6 +35,26 @@ main {
   padding: 20px;
 }
 
-.github {
+.social {
+  padding: 0 8px;
+  text-decoration: none;
+}
+
+.github, .linkedin {
   max-width: 45px;
+  filter: blur(2px);
+  transition-property: filter;
+  transition-duration: 0.75s;
+}
+
+.github:hover, .linkedin:hover {
+  filter: blur(0px);
+}
+
+.credit {
+  font-size: .8rem;
+  margin: 0;
+  padding: 16px;
+  color: white;
+  text-align: right;
 }
