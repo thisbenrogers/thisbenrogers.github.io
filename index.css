@@ -10,7 +10,7 @@ body {
 main {
   min-height: 100vh;
   background-color: black;
-  background-image: url('./night-field.png');
+  background-image: radial-gradient(circle farthest-side, rgba(15, 14, 22, 0.3), #100e17d1), url('./night-field.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; 
